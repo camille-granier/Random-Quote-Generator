@@ -57,3 +57,13 @@ button:hover {
 #tweet-quote:hover {
   opacity: 0.8;
 }
+@media (max-width: 600px) {
+  *{
+    font-size: 12px;
+  }
+  #quote-box {
+  width: 80%;
+  padding: 1rem;
+  max-height: 350px;
+  }
+}
