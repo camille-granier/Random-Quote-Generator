@@ -1,0 +1,59 @@
+* {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+html {
+  background-color: #66bfbf;
+}
+
+#quote-box {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 2rem;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  color: #66bfbf;
+}
+#quote-text {
+  text-align: center;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.fa {
+    font-size: 2rem;
+    padding: 4px;
+    color: #66bfbf;
+    }
+
+#text {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+#author {
+  font-size: 1.3rem;
+  padding: 15px;
+}
+button {
+  background-color: #66bfbf;
+  color: white;
+  margin: 10px;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+button:hover {
+    opacity: 0.8;
+  }
+#tweet-quote:hover {
+  opacity: 0.8;
+}
