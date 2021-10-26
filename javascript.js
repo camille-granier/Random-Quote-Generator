@@ -41,18 +41,6 @@ const quotes = [
   },
 ];
 
-var colors = [
-  "#f76b8a",
-  "#66bfbf",
-  "#ffb5b5",
-  "#407088",
-  "#8971d0",
-  "#6643b5",
-  "#fdb44b",
-  "#76b39d",
-  "#962071"
-];
-var color = Math.floor(Math.random()*colors.length);
 
 function generateQuote() {
   let randomNumber = Math.floor(Math.random()*quotes.length)
